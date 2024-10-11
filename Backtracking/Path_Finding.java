@@ -61,21 +61,3 @@ public class Path_Finding {
     }
 
 }
-
-/*
- *         if( Visited.get(Source) == true ) return false;
-
-        Visited.add(Source, true);
-        
-        for( int i=Source; i<data.get(Source).size(); i++ )
-        {
-            if( Visited.get(i) != true )
-            {
-                Boolean x = Search_Path( Visited, i, Destination, data );
-
-                if( x == true ) return true;
-            }
-        }
-
-        return false;
- */
