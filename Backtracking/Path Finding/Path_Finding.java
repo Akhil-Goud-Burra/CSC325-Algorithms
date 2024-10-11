@@ -12,7 +12,7 @@ public class Path_Finding {
 
         Visited.add(Source, true);
 
-        for( int i=Source; i<data.get(Source).size(); i++ )// i = Intermediate Node
+        for( int i=0; i<data.get(Source).size(); i++ )// i = Intermediate Node
         {
             if(Visited.get(i) == false  && data.get(Source).get(i) == 1)
             {
